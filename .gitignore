@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Ignore local model directories
+fine_tuned_distilbert_imdb/
+fine_tuned_distilbert_imdb_repo/
+fine_tuned_income_classifier/
+fine_tuned_income_classifier_repo/
+heart_disease_classifier/
+heart_disease_classifier_repo/
+*.zip
+
+
+# Hugging Face model repos (since I load them via hf_hub_download)
+*_repo/
+*.zip
+*.pkl
+*.pt
+*.bin
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
